@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  color: #ffffff;
+}
+
+.custom__bg-button_color{
+background: linear-gradient(90deg, #8b1fbe 11%, #de9a33 100%);
+
+}
