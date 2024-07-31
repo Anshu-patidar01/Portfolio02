@@ -102,10 +102,12 @@ const myExperience = [
     IMG: PersistentSystems,
     time: "– From June 2022 - Present",
     role: "Role – Dot Net Developer",
+    workedOnProjects:
+      "I am working on developing a workflow application to manage offshore operations and provide transparency to stakeholders, as well as implementing Dynamic 365 Intelligent Order Management (IOM) to optimize order processing and enhance overall operational efficiency.",
     projects: [
       //Project 1 in company Presistent
       {
-        projectName: "project1",
+        projectName: "Project1",
         discription:
           "Workflow application to manage offshore operation and provide transparency to stockholders. Itis hospitality domain-based project including User, Transaction and Report module. User modules includemultiple roles which are used to take care for order approval and rejection based on information andavailability. Transaction module used to create order. Report module used to check status for all pending,approved and rejected order",
 
@@ -121,7 +123,7 @@ const myExperience = [
       },
       //Project 2 in company Presistent
       {
-        projectName: "project2",
+        projectName: "Project2",
         discription:
           "– Dynamic 365 Intelligent order management (IOM) project. Which is used to send order, create customer from adobe to IOM portal using power automate. Once the order status changes it will reflect in adobe and IOM. We used custom and shared connector to call API.",
 
@@ -141,6 +143,8 @@ const myExperience = [
     IMG: TCSIMG,
     time: "– From Oct 2018 – May 2022",
     role: "Role – Dot Net Developer",
+    workedOnProjects:
+      "I developed a .NET web application using ASP.NET C# and SQL Server for a transport domain-based project, where users can track the shipment of their orders, and I also created web services for the application.",
     projects: [
       //Project 1 in company Presistent
       {

@@ -1,9 +1,9 @@
 import "./App.css";
-import Home from "./components/Home page/Home";
-import Skills from "./components/key skills/Skills";
+import Home from "./components/Home-page/Home";
+import Skills from "./components/key-skills/Skills";
 import Navbar from "./components/Navbar/Navbar";
-import Profile from "./components/Profile summery/Profile";
-import Experience from "./components/Work experience/Experience";
+import Profile from "./components/Profile-summery/Profile";
+import Experience from "./components/Work-experience/Experience";
 function App() {
   return (
     <>
