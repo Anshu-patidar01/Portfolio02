@@ -1,8 +1,16 @@
 import profileImage from "../Assets/ProfileIMG.jpeg";
 import PersistentSystems from "../Assets/PersistentSystems.jpg";
 import TCSIMG from "../Assets/TCS.png";
+import TCSSmall from "../Assets/TCSIMG.png";
+import PersistentIMGSmall from "../Assets/logo_persistent2png.png";
+import AboutIMG from "../Assets/ProfileIMG-bg-removed.png";
 const Links = {
   profileIMG: profileImage,
+  aboutIMG: AboutIMG,
+  Resume: "../Assets/Resume_Sanjay_Patidar.pdf",
+  linkedin: "https://in.linkedin.com/in/patidarjay",
+  instagram: "https://www.instagram.com/sanjupofficial/",
+  facebook: "",
 };
 
 const Header = {
@@ -55,6 +63,17 @@ const ProfileSummery = [
     points: "Good Knowledge of code quality tools- DCT (Dependency check tool)",
   },
 ];
+const aboutSection = {
+  discription:
+    "I am a dedicated .NET Developer with over five years of experience in application development. Currently, I am working at Persistent Systems since June 2022, where I have been honing my skills in web application development using ASP.NET MVC and C#.Previously, I contributed my expertise at Tata Consultancy Services from October 2018 to May 2022. My extensive experience spans across SQL Server database design, object-oriented programming, and the development of robust web applications.In addition to my core skills, I have hands-on experience with Power Apps and Power Automate, enabling me to create efficient and dynamic solutions tailored to business needs. My strong technical background is complemented by my commitment to delivering high-quality, scalable software solutions.",
+};
+
+const Education = {
+  digree: "Master of Computer Application (MCA)",
+  college: " Shri Vaishnav Institute of Management, Indore",
+  cgpa: " 7.15 CGPA",
+  year: "(2015-2018)",
+};
 
 const Skills_discription = [
   {
@@ -100,6 +119,7 @@ const myExperience = [
   {
     companyName: "Persistent Systems",
     IMG: PersistentSystems,
+    IMGSmall: PersistentIMGSmall,
     time: "– From June 2022 - Present",
     role: "Role – Dot Net Developer",
     workedOnProjects:
@@ -141,6 +161,7 @@ const myExperience = [
   {
     companyName: "Tata Consultancy Services",
     IMG: TCSIMG,
+    IMGSmall: TCSSmall,
     time: "– From Oct 2018 – May 2022",
     role: "Role – Dot Net Developer",
     workedOnProjects:
@@ -148,7 +169,7 @@ const myExperience = [
     projects: [
       //Project 1 in company Presistent
       {
-        projectName: "project1",
+        projectName: "Project1",
         discription:
           "It was transport domain-based project where user can track the shipment of the order.",
 
@@ -170,4 +191,19 @@ const myExperience = [
   },
 ];
 
-export { Header, Links, ProfileSummery, Skills_discription, myExperience };
+const ContactSection = {
+  mobileNo: "7722829772",
+  address: "Indore,India",
+  email: "Jaypatidar31@gmail.com",
+};
+
+export {
+  Header,
+  Links,
+  ProfileSummery,
+  Skills_discription,
+  myExperience,
+  aboutSection,
+  Education,
+  ContactSection,
+};
