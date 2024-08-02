@@ -6,17 +6,17 @@ import { MdOutlineSubdirectoryArrowRight } from "react-icons/md";
 function Contact() {
   return (
     <div
-      className="flex flex-col items-center h-screen w-full mt-10 lg:mt-20"
+      className="flex flex-col items-center bg-outerBg-light dark:bg-outerBg-dark text-Normal-light dark:text-Normal-dark  w-full"
       id="contact"
     >
       <h1 className="font-semibold text-5xl cuestom__text-head pt-12">
         Contact Me
       </h1>
       <div className=" flex flex-col lg:flex-row mt-5 lg:mt-0 h-full w-full lg:px-36 ">
-        <div className="flex items-center justify-center gap-10 flex-col lg:w-6/12 ">
+        <div className="flex items-center justify-center gap-10 flex-col  lg:w-6/12 ">
           <img
             src={Links.aboutIMG}
-            className=" w-36 lg:w-52 rounded-[3rem]"
+            className=" w-36 lg:w-52 rounded-[3rem] shadow-xl shadow-sky-900 hover:shadow-sky-700"
             alt=""
           />
           <div>
@@ -48,34 +48,34 @@ function Contact() {
           <input
             type="text"
             name="name"
-            className="p-2 rounded-xl bg-slate-300 text-slate-700"
+            className="p-2 rounded-xl"
             required
             placeholder="Your Name"
           />
           <input
             type="text"
             name="email"
-            className="p-2 rounded-xl bg-slate-300 text-slate-700"
+            className="p-2 rounded-xl "
             required
             placeholder="Your Email"
           />
           <input
             type="number"
             name="name"
-            className="p-2 rounded-xl bg-slate-300 text-slate-700"
+            className="p-2 rounded-xl "
             required
             placeholder="Mobile no."
           />
           <input
             type="text"
             name="subject"
-            className="p-2 rounded-xl bg-slate-300 text-slate-700"
+            className="p-2 rounded-xl "
             required
             placeholder="Subject"
           />
           <textarea
             name="massege"
-            className="p-2 rounded-xl bg-slate-300 text-slate-700"
+            className="p-2 rounded-xl "
             required
             id="subject1"
             rows={2}
@@ -85,7 +85,7 @@ function Contact() {
           <button
             type="submit"
             className="flex items-center justify-center text-slate-50 
-            requiredgap-2 p-3 bg-violet-700 mx-28 rounded-xl"
+            requiredgap-2  p-3 bg-violet-700 mx-28 rounded-xl"
           >
             <h1 className="text-lg">Submit</h1>
             <MdOutlineSubdirectoryArrowRight className="text-xl" />

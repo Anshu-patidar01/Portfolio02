@@ -4,13 +4,13 @@ import { Header, Links } from "../../content";
 function Home() {
   return (
     <div
-      className="flex flex-col items-center mt-12 h-[85vh] lg:h-screen w-full "
+      className="flex flex-col bg-outerBg-light text-Normal-light dark:text-Normal-dark dark:bg-outerBg-dark items-center pt-12 h-[85vh] lg:h-screen w-full "
       id="home"
     >
       <div>
         <img
           src={Links.profileIMG}
-          className="w-60 rounded-full shadow-lg shadow-sky-800 hover:shadow-lg hover:shadow-sky-600"
+          className="w-60 rounded-full shadow-xl shadow-sky-800 hover:shadow-sky-900 "
           alt="Profile Image"
         />
       </div>
@@ -23,7 +23,7 @@ function Home() {
         </h1>
         <p className="px-16 xl:px-[26rem]">{Header.Discription}</p>
       </div>
-      <div className="flex flex-col md:flex-row  gap-5 mt-5">
+      <div className="flex flex-col md:flex-row text-Normal-dark  gap-5 mt-5">
         <a
           href={Links.Resume}
           download
@@ -33,12 +33,12 @@ function Home() {
         </a>
         <a
           href="#contact"
-          className="border-2 border-white text-[16] my-1 cursor-pointer font-semibold rounded-full capitalize px-7 py-4"
+          className="border-2 border-slate-800 dark:border-white hover:border-white text-slate-900 dark:text-Normal-dark text-[16] my-1 cursor-pointer font-semibold rounded-full capitalize px-7 py-4"
         >
           Contact with me
         </a>
       </div>
-      <div className="w-[90%] h-0.5 bg-slate-500 mt-20 lg:mt-28"></div>
+      <div className="w-[90%] h-0.5 bg-slate-300 mt-20 lg:mt-28"></div>
     </div>
   );
 }
